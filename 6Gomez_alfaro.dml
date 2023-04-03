@@ -1,0 +1,21 @@
+DELETE FROM cliente WHERE tipo_contrato=978;
+DELETE FROM cliente WHERE tipo_maquina='tipoA';
+
+DELETE FROM pago WHERE banco='Santander';
+DELETE FROM pago WHERE administrador='Martin Sabina Martinez';
+
+DELETE FROM maquina WHERE tipo='A';
+
+DELETE FROM tipo_maquina WHERE carcasa='Plastico';
+DELETE FROM tipo_maquina WHERE s_o='Windows';
+
+DELETE FROM tipo_dulces WHERE tipo_dulce='picoso';
+DELETE FROM tipo_dulces WHERE marca='De la Rosa';
+
+DELETE FROM contrato_1 WHERE recurrencia_surtido=4;
+DELETE FROM contrato_1 WHERE tipo_contrato='b';
+
+
+
+
+
