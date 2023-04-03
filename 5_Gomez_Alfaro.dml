@@ -1,0 +1,54 @@
+UPDATE cliente SET nombre_representante = 'Alberto', apellido_p_representante = 'Gonzalez', apellido_m_representante = 'Camarena' WHERE cliente_id = 1;
+UPDATE cliente SET nombre_representante = 'Sandra', apellido_p_representante = 'Reyes', apellido_m_representante = 'Espinosa' WHERE cliente_id = 2;
+UPDATE cliente SET nombre_representante = 'Joaquin', apellido_p_representante = 'Bustos', apellido_m_representante = 'Montero' WHERE cliente_id = 3;
+UPDATE cliente SET nombre_representante = 'Juan Carlos', apellido_p_representante = 'Ramirez', apellido_m_representante = 'Gomez' WHERE cliente_id = 4;
+UPDATE cliente SET nombre_representante = 'Juan', apellido_p_representante = 'Gordillo', apellido_m_representante = 'Gonzalez' WHERE cliente_id = 5;
+UPDATE cliente SET nombre_representante = 'Elba Esther', apellido_p_representante = 'Gordillo', apellido_m_representante = 'Morales' WHERE cliente_id = 6;
+UPDATE cliente SET nombre_representante = 'Manuel', apellido_p_representante = 'Lopez', apellido_m_representante = 'Castillo' WHERE cliente_id = 7;
+UPDATE cliente SET nombre_representante = 'Enrique', apellido_p_representante = 'Peña', apellido_m_representante = 'Nieto' WHERE cliente_id = 8;
+UPDATE cliente SET nombre_representante = 'Carlos', apellido_p_representante = 'Salinas', apellido_m_representante = 'Gortari' WHERE cliente_id = 9;
+UPDATE cliente SET nombre_representante = 'Hugo', apellido_p_representante = 'Lopez', apellido_m_representante = 'Gattel' WHERE cliente_id = 10;
+
+UPDATE tipo_maquina SET carcasa = 'Aluminio reforzado', s_o = 'Windows', seguridad = '' WHERE tipo_maquina_id = 1;
+UPDATE tipo_maquina SET carcasa = 'Fibra de vidrio', s_o = 'Windows', seguridad = 'Camara de seguridad' WHERE tipo_maquina_id = 2;
+UPDATE tipo_maquina SET carcasa = 'Plastico', s_o = 'Windows', seguridad = 'Vidrio templado. Camara de seguridad' WHERE tipo_maquina_id =3;
+UPDATE tipo_maquina SET carcasa = 'Aluminio reforzado', s_o = 'Windows', seguridad = 'Vidrio templado' WHERE tipo_maquina_id = 4;
+UPDATE tipo_maquina SET carcasa = 'Plastico', s_o = 'Windows', seguridad = '' WHERE tipo_maquina_id = 5;
+UPDATE tipo_maquina SET carcasa = 'Aluminio reforzado', s_o = 'Windows', seguridad = 'Candado de seguridad. Vidrio templado' WHERE tipo_maquina_id = 6;
+UPDATE tipo_maquina SET carcasa = 'Plastico', s_o = 'Linux', seguridad = '' WHERE tipo_maquina_id = 7;
+UPDATE tipo_maquina SET carcasa = 'Fibra de vidrio', s_o = 'Linux', seguridad = 'Candado de seguridad' WHERE tipo_maquina_id = 8;
+UPDATE tipo_maquina SET carcasa = 'Plastico', s_o = 'Windows', seguridad = 'Candado de seguridad' WHERE tipo_maquina_id = 9;
+UPDATE tipo_maquina SET carcasa = 'Aluminio reforzado', s_o = 'Windows', seguridad = 'Camara de seguridad. Candado de seguridad. Vidrio reforzado' WHERE tipo_maquina_id = 10;
+
+UPDATE pago SET clabe = 58964522, banco = 'Santander', administrador = 'Felipe Calderon Hinojosa' WHERE pago_id = 1;
+UPDATE pago SET clabe = 5621087643, banco = 'Santander', administrador = 'Enrique Peña Nieto' WHERE pago_id = 2;
+UPDATE pago SET clabe = 2364760894, banco = 'HSBC', administrador = 'Sandra Gonzalez Rosas' WHERE pago_id = 3;
+UPDATE pago SET clabe = 485124793, banco = 'BANREGIO', administrador = 'Alberto Rodas Gonzalez' WHERE pago_id = 4;
+UPDATE pago SET clabe = 485124793, banco = 'Santander', administrador = 'Juan Hermenegildo Palacios' WHERE pago_id = 5;
+UPDATE pago SET clabe = 6665789664, banco = 'Santander', administrador = 'Carolina Herrera' WHERE pago_id = 6;
+UPDATE pago SET clabe = 9978423452, banco = 'HSBC', administrador = 'Martin Sabina Martinez' WHERE pago_id = 7;
+UPDATE pago SET clabe = 4785153624, banco = 'HSBC', administrador = 'Olivia Siqueiros Nieto' WHERE pago_id = 8;
+UPDATE pago SET clabe = 3345905077, banco = 'BBVA', administrador = 'Maria de lo Ageles Arguelles Gonzalez' WHERE pago_id = 9;
+UPDATE pago SET clabe = 8895488928, banco = 'BBVA', administrador = 'Socorro Rocio Peralta Ramos' WHERE pago_id = 10;
+
+UPDATE tipo_dulces SET tipo_dulce = 'Acidulzado', marca = 'Vero', monto_adquisicion = '5.39' WHERE dulce_id = 2;
+UPDATE tipo_dulces SET tipo_dulce = 'Salado', marca = 'Vero', monto_adquisicion = '8.59' WHERE dulce_id = 3;
+UPDATE tipo_dulces SET tipo_dulce = 'Salado', marca = 'De la Rosa', monto_adquisicion = '15.69' WHERE dulce_id = 4;
+UPDATE tipo_dulces SET tipo_dulce = 'Dulce', marca = 'De la Rosa', monto_adquisicion = '20.99' WHERE dulce_id = 6;
+UPDATE tipo_dulces SET tipo_dulce = 'Salado', marca = 'Vero', monto_adquisicion = '5.99' WHERE dulce_id = 7;
+UPDATE tipo_dulces SET tipo_dulce = 'Salado', marca = 'De la Rosa', monto_adquisicion = '9.99' WHERE dulce_id = 8;
+UPDATE tipo_dulces SET tipo_dulce = 'Dulce', marca = 'Marinella', monto_adquisicion = '15.69' WHERE dulce_id = 9;
+UPDATE tipo_dulces SET tipo_dulce = 'Dulce', marca = 'Marinella', monto_adquisicion = '6.66' WHERE dulce_id = 11;
+UPDATE tipo_dulces SET tipo_dulce = 'Dulce', marca = 'De la Rosa', monto_adquisicion = '7.85' WHERE dulce_id = 12;
+UPDATE tipo_dulces SET tipo_dulce = 'Acidulzado', marca = 'Vero', monto_adquisicion = '9.99' WHERE dulce_id = 13;
+
+UPDATE contrato_1 SET tipo_contrato = 'a', fecha_firma = '2022-12-21', inicio_dist = '2022-12-21' WHERE contrato_id = 1;
+UPDATE contrato_1 SET tipo_contrato = 'a', fecha_firma = '2022-12-30', inicio_dist = '2023-01-01' WHERE contrato_id = 2;
+UPDATE contrato_1 SET tipo_contrato = 'a', fecha_firma = '2019-01-31', inicio_dist = '2019-01-31' WHERE contrato_id = 3;
+UPDATE contrato_1 SET tipo_contrato = 'b', fecha_firma = '2017-05-01', inicio_dist = '2017-06-26' WHERE contrato_id = 4;
+UPDATE contrato_1 SET tipo_contrato = 'b', fecha_firma = '2017-08-01', inicio_dist = '2017-08-16' WHERE contrato_id = 5;
+UPDATE contrato_1 SET tipo_contrato = 'b', fecha_firma = '2015-01-01', inicio_dist = '2015-01-01' WHERE contrato_id = 6;
+UPDATE contrato_1 SET tipo_contrato = 'b', fecha_firma = '2019-05-01', inicio_dist = '2019-05-05' WHERE contrato_id = 7;
+UPDATE contrato_1 SET tipo_contrato = 'b', fecha_firma = '2015-12-30', inicio_dist = '2016-01-01' WHERE contrato_id = 8;
+UPDATE contrato_1 SET tipo_contrato = 'b', fecha_firma = '2023-04-01', inicio_dist = '2023-04-02' WHERE contrato_id = 9;
+UPDATE contrato_1 SET tipo_contrato = 'a', fecha_firma = '2022-12-01', inicio_dist = '2022-12-30' WHERE contrato_id = 10;
